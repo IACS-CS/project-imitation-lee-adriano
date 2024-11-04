@@ -1,1 +1,81 @@
 /* CSS for your imitation here */
+html {
+  background: #636363;
+}
+main {
+  border: 3px solid white;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: end;
+  overflow: hidden;
+  index: 2
+}
+
+.pitt {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 75; 
+    
+  color: white;
+transform: rotate(-4deg);
+  font-size: 145px;
+  height: 10px;
+  z-index: 5;
+}
+
+.bull {
+  z-index: 4;
+  width: 600px;
+  border: 15px, solid, block;
+  background: black;
+  position: absolute;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+}
+
+.font-1 {
+  text-align: front;
+  font-size: 10px;
+}
+
+.font-2 {
+  text-align: center;
+}
+
+.end {
+ text-align: end;
+}
+
+.squish {
+  text-align: end;
+}
+
+.pit {
+  border: 9px, solid, black;
+  border-top; 1px;
+  width: 650px;
+  height: 180px;
+  margin-left: -5px;
+  background: black;
+transform: rotate(-4deg);
+  font-size: 135px;
+}
+
+.window {
+  width: 1500px;
+  height: 200px;
+  position: absolute;
+  top: 534px;
+  backdrop-filter: invert(1);
+  transition: height 300ms, width 1000ms;
+  z-index: 6;
+}
