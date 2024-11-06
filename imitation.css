@@ -19,8 +19,9 @@ main {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 75; 
+  font-variation-settings: 
+ "wdth" 75; 
+  letter-spacing: px;
     
   color: white;
 transform: rotate(-4deg);
