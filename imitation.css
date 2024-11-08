@@ -11,7 +11,7 @@ main {
   flex-direction: column;
   justify-content: end;
   overflow: hidden;
-  index: 2
+  z-index: 2
 }
 
 .pitt {
@@ -58,7 +58,7 @@ transform: rotate(-4deg);
 
 .pit {
   border: 9px, solid, black;
-  border-top; 1px;
+  border-top: 1px;
   width: 650px;
   height: 180px;
   margin-left: -5px;
