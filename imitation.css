@@ -25,7 +25,7 @@ main {
   color: white;
   transform: rotate(-4deg);
   font-size: 145px;
-  height: 100px; /* Adjusted to fit */
+  height: 25px; /* Adjusted to fit */
   z-index: 5;
 }
 
