@@ -2,6 +2,7 @@
 html {
   background: #636363;
 }
+
 main {
   border: 3px solid white;
   width: 600px;
@@ -11,7 +12,7 @@ main {
   flex-direction: column;
   justify-content: end;
   overflow: hidden;
-  z-index: 2
+  z-index: 2;
 }
 
 .pitt {
@@ -19,20 +20,19 @@ main {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  font-variation-settings: 
- "wdth" 75; 
-  letter-spacing: 3px; /* fix me */
+  font-variation-settings: "wdth" 75;
+  letter-spacing: 1px;
   color: white;
-transform: rotate(-4deg);
+  transform: rotate(-4deg);
   font-size: 145px;
-  height: 10px;
+  height: 100px; /* Adjusted to fit */
   z-index: 5;
 }
 
 .bull {
   z-index: 4;
   width: 600px;
-  border: 15px, solid, block;
+  border: 15px solid black;
   background: black;
   position: absolute;
   color: white;
@@ -43,7 +43,7 @@ transform: rotate(-4deg);
 }
 
 .font-1 {
-  text-align: front;
+  text-align: start;
   font-size: 10px;
 }
 
@@ -52,7 +52,7 @@ transform: rotate(-4deg);
 }
 
 .end {
- text-align: end;
+  text-align: end;
 }
 
 .squish {
@@ -60,13 +60,13 @@ transform: rotate(-4deg);
 }
 
 .pit {
-  border: 9px, solid, black;
-  border-top: 1px;
+  border: 9px solid black;
+  border-top: 1px solid black;
   width: 650px;
   height: 180px;
   margin-left: -5px;
   background: black;
-transform: rotate(-4deg);
+  transform: rotate(-4deg);
   font-size: 135px;
 }
 
