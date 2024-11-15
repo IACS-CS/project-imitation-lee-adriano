@@ -43,6 +43,10 @@ main {
 }
 
 .font-1 {
+  font-family: "Host Grotesk", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 75;
   text-align: start;
   font-size: 10px;
 }
@@ -55,11 +59,14 @@ main {
 }
 
 .end {
-  text-align: end;
+  font-family: "Host Grotesk", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings: "wdth" 75;
 }
 
 .squish {
-  text-align: end;
 }
 
 .pit {
