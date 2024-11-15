@@ -78,4 +78,10 @@ main {
   backdrop-filter: invert(1);
   transition: height 300ms, width 1000ms;
   z-index: 6;
+} 
+
+
+.MrBitpull{ 
+margin-left: 50%;
+
 }
