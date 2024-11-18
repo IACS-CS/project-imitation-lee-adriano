@@ -32,14 +32,17 @@ main {
 .bull {
   z-index: 4;
   width: 600px;
-  border: 15px solid black;
+  border: 1px solid black;
   background: black;
   position: absolute;
   color: white;
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 8px;
+  padding: 0 5px;
+  margin-bottom: 
+  box-sizing: border-box;
+
 }
 
 .font-1 {
@@ -56,6 +59,7 @@ main {
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  font-size: 35px;
 }
 
 .end {
@@ -64,9 +68,17 @@ main {
   font-weight: 900;
   font-style: normal;
   font-variation-settings: "wdth" 75;
+  margin-left: auto;
+  font-size: 30px;
+  display: inline-block;
+  transform: scaleX(0.8);
+  transform-origin: bottom right;
 }
 
 .squish {
+  transform: scaleY(.6);
+  transform-origin: center;
+  display: inline-block;
 }
 
 .pit {
